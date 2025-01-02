@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Output directories
+bin/
+dist/
+
+# Dependency directories
+vendor/
+
+# Go-specific
+*.test
+*.out
+*.prof
+*.log
+*.sum
+go.sum
+go.mod
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and debugging
+*.log
+*.trace
+*.prof
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# MacOS-specific
+.DS_Store
+
+# Node.js (if any JS/HTML assets are managed)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive data
+.env
+*.key
+*.crt
+*.pem
+client_secrets.json
+
+# Application-specific
+assets/home_logo.png
